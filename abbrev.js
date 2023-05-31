@@ -11,7 +11,7 @@
 // patrick feeney => P.F
 
 function abbrevName(name) {
-  return console.log(name.split(' ').map(word => word[0]).join('.'));
+  return name.split(' ').map(word => word[0]).join('.');
 }
 
-abbrevName("Sam Harris");
+console.log(abbrevName("Sam Harris"));
