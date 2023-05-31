@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Return the number (count) of vowels in the given string.
 
@@ -7,14 +7,14 @@
 // The input string will only consist of lower case letters and/or spaces.
 
 function getCount(str) {
-    let wovelsCount = 0;
-    const wovels = ['a', 'e', 'i', 'o', 'u'];
-    for (let char of str){
-        if (wovels.includes(char)){
-            wovelsCount +=1  
-        }
+  let wovelsCount = 0;
+  const wovels = ["a", "e", "i", "o", "u"];
+  for (let char of str) {
+    if (wovels.includes(char)) {
+      wovelsCount += 1;
     }
-    return wovelsCount;
   }
+  return wovelsCount;
+}
 
-  console.log(getCount("abracadabra"));
+console.log(getCount("abracadabra"));
