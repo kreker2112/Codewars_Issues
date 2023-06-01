@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node who-likes-this.js",
     "jayden-case": "node Jayden-Case.js",
-    "doubled": "getCountWovels.js && FakeBin.js"
+    "doubled": "getCountWovels.js && FakeBin.js",
+    "build": "babel src -d lib"
   },
   "keywords": [],
   "author": "Oleksandr Tkachov <kreker2112@gmail.com>",
