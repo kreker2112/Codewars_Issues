@@ -1,0 +1,17 @@
+{
+  "name": "codewars_issues",
+  "version": "1.0.0",
+  "description": "my_codewars_issues",
+  "main": "abbrev.js",
+  "scripts": {
+    "start": "node who-likes-this.js",
+    "jayden-case": "node Jayden-Case.js",
+    "doubled": "getCountWovels.js && FakeBin.js"
+  },
+  "keywords": [],
+  "author": "Oleksandr Tkachov <kreker2112@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "shortid": "^2.2.16"
+  }
+}

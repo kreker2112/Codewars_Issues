@@ -18,4 +18,4 @@ function fakeBin(x) {
   return newArray;
 }
 
-fakeBin("45385593107843568");
+console.log(fakeBin("45385593107843568"));
